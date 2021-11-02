@@ -1,0 +1,16 @@
+﻿/* body{background: url(../images/sub01.png) no-repeat center top;} */
+
+	
+#sub1Ct{width: 100%; margin: 0 auto; background: rgba(0,0,0,0.1);}
+	#content{width: 1420px; margin: 0 auto; background: rgba(123,123,123,0.2);}
+	#leftMenu{width: 323px; height: 513px; background: rgba(152,145,214,0.3);}
+	
+	#rightContent{width: 1060px; background: rgba(255,189,11,0.2);}
+		#contentTit{width: 1060px; height: 111px; background: rgba(255,142,66,0.2);}
+		#contentDt{width: 1060px; height:55px; background: rgba(249,100,50,0.2);}
+		#mainCont{width: 1060px; height: 1137px; background: rgba(150,100,30,0.2);}
+			#contImg{width: 1060px; height: 400px; background: rgba(140,255,140,0.5);}
+			#contText{width: 1060px; height: 737px; background: rgba(255,0,255,0.1);}
+	
+	
+	

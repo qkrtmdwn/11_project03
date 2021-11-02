@@ -1,0 +1,31 @@
+﻿/* body{background: url(../images/sub03.png) no-repeat center top;} */
+*{margin: 0; padding: 0;}
+html{overflow-y: scroll;}
+div{color: red;}
+
+#header{width: 100%; margin: 0 auto; background: rgba(0, 0, 0, 0.1);}
+	#top{width: 1420px; margin: 0 auto; height: 120px; position: relative; background: rgba(50,50,50, 0.2); }
+		#mainLogo{width: 207px; height: 65px; position: absolute; top: 33px; background: rgba(255,0,0,0.1)}
+		#search{width: 470px; height: 54px; position: absolute; top: 34px; left: 360px; background: rgba(0,255,0,0.4)} 
+		#keyword{width: 230px; height: 50px; position: absolute; top: 36px; right: 330px; background: rgba(0,0,255,0.4)}
+		#mainGnb{width: 300px; height: 50px; position: absolute; top: 36px; right: 0px; background: rgba(255,0,255,0.4)}
+	#menu{width: 1420px; margin: 0 auto; height: 72px; background: rgba(100, 100,100,0.5);} 
+	
+#sub2Ct{width: 100%; margin: 0 auto; background: rgba(0,0,0,0.1);}
+	#content{width: 1420px; margin: 0 auto; background: rgba(123,123,123,0.2);}
+	#leftMenu{width: 323px; height: 575px; background: rgba(152,145,214,0.3);}
+
+	#rightContent{width: 1060px; background: rgba(255,189,11,0.2);}
+		#contentHeader{width: 1060px; height: 111px; background: rgba(100,255,100,0.1);}
+		#contentDt{width: 1060px; height:122px; background: rgba(249,100,50,0.2);}	
+		#mainCont{width: 1060px; height: 1455px; background: rgba(100,255,100,0.1);}
+			#contTit{width: 1060px; height: 80px; background: rgba(255,255,0,0.1);}
+			#contSection{width: 1060px; height: 1200px; background: rgba(0,255,255,0.1);}
+			#contfooter{width: 1060px; height: 175px; background: rgba(255,0,255,.1);}
+
+			
+			
+
+#footer{width: 100%; margin: 0 auto; background: rgba(180,152,155,0.1);}
+	#fMenu{width: 1420px; margin: 0 auto; height: 100px;background: rgba(160,248,30,0.1)}
+	#fCopy{width: 1420px; margin: 0 auto; height: 100px; background: rgba(80,124,90,0.1)} 

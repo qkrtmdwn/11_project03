@@ -1,0 +1,35 @@
+﻿/* body{background: url(../images/sub02.png) no-repeat center top;} */
+
+#header{width: 100%; margin: 0 auto; background: rgba(0, 0, 0, 0.1);}
+	#top{width: 1420px; margin: 0 auto; height: 120px; position: relative; background: rgba(50,50,50, 0.2); }
+		#mainLogo{width: 207px; height: 65px; position: absolute; top: 33px; background: rgba(255,0,0,0.1)}
+		#search{width: 470px; height: 54px; position: absolute; top: 34px; left: 360px; background: rgba(0,255,0,0.4)} 
+		#keyword{width: 230px; height: 50px; position: absolute; top: 36px; right: 330px; background: rgba(0,0,255,0.4)}
+		#mainGnb{width: 300px; height: 50px; position: absolute; top: 36px; right: 0px; background: rgba(255,0,255,0.4)}
+	#menu{width: 1420px; margin: 0 auto; height: 72px; background: rgba(100, 100,100,0.5);}	
+	
+#sub2Ct{width: 100%; margin: 0 auto; background: rgba(0,0,0,0.1);}
+	#content{width: 1420px; margin: 0 auto; background: rgba(123,123,123,0.2);}
+	#leftMenu{width: 323px; height: 902px; background: rgba(152,145,214,0.3);}
+
+	#rightContent{width: 1060px; background: rgba(255,189,11,0.2);}
+		#contentTit{width: 1060px; height: 111px; background: rgba(100,255,100,0.1);}
+		#contentDt{width: 1060px; height:55px; background: rgba(249,100,50,0.2); /* margin-bottom: 35px; */}	
+		
+		#mainCont{width: 1060px;}
+			#mainCt1{width: 1060px; background: rgba(100,255,100,0.1);}
+				#mainCtText{width: 1060px; height: 210px; background: rgba(152,145,214,0.3);}
+				#mainCtImg{width: 1060px; height: 635px; background: rgba(100,255,100,0.1);}
+			#mainCt2{width: 1060px; height: 890px; background: rgba(249,100,50,0.2);}
+			#mainCt3{width: 1060px; height: 285px; background: rgba(100,255,100,0.1);}
+			#mainCt4{width: 1060px; background: rgba(249,100,50,0.2);}
+				#mainCtText1{width: 1060px; height: 160px; background: rgba(152,145,214,0.3);}
+				#mainCtImg1{width: 1060px; height: 180px; background: rgba(100,170,200,0.3);}
+				#mainCtImg2{width: 1060px; height: 900px; background: rgba(152,145,214,0.3);}
+			#mainCt5{width: 1060px; height: 927px; background: rgba(100,255,100,0.1);}
+			
+			
+
+#footer{width: 100%; margin: 0 auto; background: rgba(180,152,155,0.1);}
+	#fMenu{width: 1420px; margin: 0 auto; height: 100px;background: rgba(160,248,30,0.1)}
+	#fCopy{width: 1420px; margin: 0 auto; height: 100px; background: rgba(80,124,90,0.1)} 
