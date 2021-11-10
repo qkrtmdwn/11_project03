@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <style>
-	h3{
-		padding-left: 5px;
-		border-left: 5px solid #edbf07;
+	h3 {
+	  padding-left: 5px;
+	  border-left: solid 5px #edbf07;
 	}
-	#close{
-		margin: 20px 0 0 80px;
-		cursor: pointer;
+	#close {
+	  margin:20px 0 0 80px;
+	  cursor:pointer;
 	}
 </style>
+<script>
+    function setParentText(){
+        opener.document.getElementById("pInput").value = document.getElementById("cInput").value
+    }
+</script>
 </head>
 <body>
 	<h3>아이디 중복체크</h3>
 	<p>
+	<input type="hidden" id="cInput" value="yes" />			
 	<?php
 		include "../include/define.php";
-		
+
+
 		$id = $_GET["id"];
 
-		if(!$id)
+		if(!$id) 
 		{
-			ehco("<li>아이디를 입력해 주세요!</li>");
+			echo("<li>아이디를 입력해 주세요!</li>");
 		}
 		else
 		{
 			$con = mysqli_connect(DBhost, DBuser, DBpass, DBname);
 
-			$sql = "select * from members where id = '$id'";
+
+			$sql = "select * from members where id='$id'";
 			$result = mysqli_query($con, $sql);
 
-			$numRecord = mysqli_num_rows($result);
+			$num_record = mysqli_num_rows($result);
 
-			if($numRecord)
+			if ($num_record)
 			{
 				echo "<li>".$id." 아이디는 중복됩니다.</li>";
-				echo "<li>다른 아이디를 사용해 주세요</li>";
+				echo "<li>다른 아이디를 사용해 주세요!</li>";
 			}
 			else
 			{
 				echo "<li>".$id." 아이디는 사용 가능합니다.</li>";
+				echo "<script>setParentText();</script>";
 			}
 
 			mysqli_close($con);
